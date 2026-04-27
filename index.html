@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI Portuguese Poem Generator</title>
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   </head>
   <body>
     <div class="container">
@@ -13,7 +14,7 @@
       </header>
 
       <main>
-        <form>
+        <form id="poem-generator-form">
           <input
             class="instructions"
             type="text"
@@ -23,11 +24,7 @@
             autocomplete="off" />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="poem">
-          No meio do caminho tinha uma pedra
-          <br />
-          Tinha uma pedra no meio do caminho.
-        </div>
+        <div class="poem" id="poem"></div>
       </main>
       <footer>
         <p>
