@@ -15,18 +15,22 @@
       </header>
 
       <main>
-        <form id="poem-generator-form">
-          <input
-            class="instructions"
-            type="text"
-            placeholder="Enter the topic of the Portuguese poem"
-            autofocus
-            required
-            autocomplete="off"
-            id="user-instructions" />
-          <input type="submit" class="submit-button" />
-        </form>
+        <div class="form-container">
+          <form id="poem-generator-form">
+            <input
+              class="instructions"
+              type="text"
+              placeholder="Enter the topic of the Portuguese poem"
+              autofocus
+              required
+              autocomplete="off"
+              id="user-instructions" />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e: Flores, Amor or Samba</div>
+        </div>
         <div class="poem" id="poem"></div>
+        <div class="poem hidden" id="poem"></div>
       </main>
       <footer>
         <p>
