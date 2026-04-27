@@ -74,6 +74,10 @@ form {
   box-shadow: 0px 4px 30px 0px rgba(66, 48, 33, 0.03);
 }
 
+.poem strong {
+  color: #cc7e36;
+}
+
 .hidden {
   display: none;
 }
